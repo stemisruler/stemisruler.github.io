@@ -6,7 +6,8 @@
   font-size: 24px;
   /* Add the following properties to create the speech bubble effect */
   border: 1px solid #000000;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
+  box-shadow: 5px 5px 30px #888888;
+  border-color: transparent #FFF;
 }
 
 #text::before {
