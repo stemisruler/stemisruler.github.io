@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Stock_Yandere_Random Quote</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div>
+        <img id="image" src="img/a_blush.png" onclick="changeImage()">
+        <p id="text">안녕, 주식 얘기할래?</p>
+    </div>
+    <script>
+        const quotes = [
+            {
+                imagePath: "img/a_normal.png",
+                texts: ["안녕", "반가워", "잘 지냈어?", "오랜만이야"]
+            },
+            {
+                imagePath: "img/a_be.png",
+                texts: ["오하요", "어서 와", "좋은 하루 시작하자"]
+            },
+            {
+                imagePath: "img/a_blush.png",
+                texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"]
+            },
+            {
+                imagePath: "img/a_blue2sans.png",
+                texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"]
+            },
+            {
+                imagePath: "img/a_red2sans.png",
+                texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"]
+            },
+            {
+                imagePath: "img/a_rsans.png",
+                texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"]
+            },
+            {
+                imagePath: "img/a_sad.png",
+                texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"]
+            },
+            {
+                imagePath: "img/a_re.png",
+                texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"]
+            },
+            {
+                imagePath: "img/a_happy.png",
+                texts: ["히히히히", "기분 좋아", "행복해"]
+            }
+        ];
+
+        function changeImage() {
+            const randomNumber = Math.floor(Math.random() * quotes.length);
+            const randomTextNumber = Math.floor(Math.random() * quotes[randomNumber].texts.length);
+            document.getElementById("image").src = quotes[randomNumber].imagePath;
+            document.getElementById("text").innerHTML = quotes[randomNumber].texts[randomTextNumber];
+        }
+    </script>
+</body>
+
+</html>
