@@ -1,79 +1,104 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <meta charset="utf-8" />
-    <!-- 문서 문자셋을 지정하는 태그 -->
-    <meta name="viewport" content="width=device-width" />
-    <!-- 반응형 웹 디자인을 위해 뷰포트를 설정하는 태그 -->
-    <title>Stock_Yandere_Random Quote</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+
+    <title>Yumu Homepage</title>
+    <link rel="icon" href="images/page-icon.png" type="image/png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap"
+    />
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/header-footer.css" />
   </head>
 
   <body>
-    <div>
-      <img id="image" src="img/a_blush.png" onclick="changeImage()" />
-      <!-- 이미지 태그, id 속성 값으로 참조할 수 있음 -->
-      <p id="text">
-        어디 기관과 따뜻한 보배를 수 철환하였는가? 속잎나고, 인생의 가슴에 이상
-        아름다우냐? 원대하고, 피어나기 피가 우리는 일월과 많이 안고, 위하여,
-        노래하며 운다. 끓는 꽃이 우리의 굳세게 사막이다. 뛰노는 풀이 석가는
-        그들의 봄날의 용기가 영원히 칼이다. 돋고, 인생에 지혜는 오아이스도
-        그것은 평화스러운 위하여 이상은 것이다. 착목한는 황금시대의 피가
-        철환하였는가?
-      </p>
-      <!-- 텍스트 태그, id 속성 값으로 참조할 수 있음 -->
+    <header class="header">
+      <h1>@Yumu_En!</h1>
+    </header>
+    <div class="nav_wrap">
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="Introduce.html">Introduce</a>
+        <a href="Quotes.html">Quotes</a>
+        <a href="Toy.html">Toy</a>
+      </nav>
     </div>
-    <script>
-      const QUOTES = [
-        // const를 사용해 상수로 선언된 배열
-        {
-          imagePath: "img/a_normal.png", // 객체 속성, 이미지 경로 - 정색을 하며 할 이야기에 이 이미지를 쓴다
-          texts: ["안녕", "반가워", "잘 지냈어?", "오랜만이야"], // 객체 속성, 랜덤으로 출력될 텍스트 배열
-        },
-        {
-          imagePath: "img/a_be.png", // 두 눈이 파란색으로, 눌림 매매에 대한 기본적인 이야기를 할 때 이 이미지를 쓴다, 혹은 차분한 상태의 이야기. 질투.
-          texts: ["오하요", "어서 와", "좋은 하루 시작하자"],
-        },
-        {
-          imagePath: "img/a_blush.png", // 부끄러워하는 듯한 이야기를 할 때, 주로 믿는다나 사랑한다, 아니면 실수에 대한 이야기
-          texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"],
-        },
-        {
-          imagePath: "img/a_blue2sans.png", //폭락은 기회다, 위기는 기회다를 좀 더 극단적으로 말할 때 사용, 차분함을 넘어 차가움이 심각해졌을 때.
-          texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"],
-        },
-        {
-          imagePath: "img/a_red2sans.png", //불타기에 대한 이야기, 돌파 매매, 강세 매매 신고가 매매에 대한 이야기를 할 때. 기대감으로 흥분할 때.
-          texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"],
-        },
-        {
-          imagePath: "img/a_rsans.png", //불타기에 대한 이야기를 무섭게 얘기할 때. 고점 매수의 위험성을 알림. 리스크 관리의 중요성.
-          texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"],
-        },
-        {
-          imagePath: "img/a_sad.png", //슬픈 이야기, 반성, 떠날까봐 두려움, 혼자 두지 말라는 얘기 등
-          texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"],
-        },
-        {
-          imagePath: "img/a_re.png", //평범하게 기분 좋은 상태. 두 눈이 빨갛다. 수익을 본 얘기나, 수익 관리에 대한 이야기.
-          texts: ["랄랄라", "웃겨", "부끄러워", "귀여워"],
-        },
-        {
-          imagePath: "img/a_happy.png", //행복한 감정에 대한 이야기, 너 덕분에 행복해 같은 이야기.
-          texts: ["히히히히", "기분 좋아", "행복해"],
-        },
-      ];
+    <main>
+      <section>
+        <div class="section-container">
+          <a href="https://youtu.be/gE2fGqV9Qsk" target="_blank"
+            ><img src="images/a_be.png" alt=""
+          /></a>
+          <div class="section-content">
+            <div class="section-content-text">
+              <h2>Introduce section</h2>
+              <p>
+                Introduce Yumu's concepts and contents.<br />[&larr; Click to
+                link introduction video]
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="section-container">
+          <img src="images/a_be.png" alt="" />
+          <div class="section-content">
+            <div class="section-content-text">
+              <h2>Quotes section</h2>
+              <p>
+                If you click Yumu's character, she replies brilliantly wiht
+                famous saying in this section.
+              </p>
+            </div>
+          </div>
+        </div>
 
-      function changeImage() {
-        // 이미지와 텍스트를 랜덤으로 변경하는 함수
-        const randomNumber = Math.floor(Math.random() * QUOTES.length); // 랜덤 인덱스 생성 - 이미지를 랜덤으로 바꾸기 위함
-        const randomTextNumber = Math.floor(
-          Math.random() * QUOTES[randomNumber].texts.length
-        ); // 랜덤 인덱스 생성 - 한 이미지 안에 있는 텍스트를 랜덤으로 뽑기 위함
-        document.getElementById("image").src = QUOTES[randomNumber].imagePath; //이미지 변경
-        document.getElementById("text").innerHTML =
-          QUOTES[randomNumber].texts[randomTextNumber]; //텍스트 변경
-      }
-    </script>
+        <div class="section-container">
+          <img src="images/a_be.png" alt="" />
+          <div class="section-content">
+            <div class="section-content-text">
+              <h2>Toy section</h2>
+              <p>Here are toys a lot for you.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <div class="footer_wrap">
+      <footer class="footer">
+        <a
+          href="https://www.youtube.com/@Yumu_En/about"
+          class="youtube"
+          target="_blank"
+        >
+          <i class="fab fa-youtube"></i>
+          Youtube
+        </a>
+        <a href="https://twitter.com/Yumu_En" class="twitter" target="_blank">
+          <i class="fab fa-twitter"></i>
+          Twitter
+        </a>
+        <a href="https://yumu-en.booth.pm/" class="goods" target="_blank">
+          <i class="fas fa-shopping-cart"></i>
+          Goods
+        </a>
+        <a
+          href="https://marshmallow-qa.com/yumu_en?utm_medium=url_text&utm_source=promotion"
+          class="questionbox"
+          target="_blank"
+        >
+          <i class="fas fa-question-circle"></i>
+          QuestionBox
+        </a>
+      </footer>
+    </div>
   </body>
 </html>

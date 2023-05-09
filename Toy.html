@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Yumu's Toy</title>
+    <link rel="icon" href="images/page-icon.png" type="image/png">
+    <link rel="stylesheet" href="css/header-footer.css">
+    <link rel="stylesheet" href="css/toy.css">
+    <script src="js/toy.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h1>@Yumu_En!</h1>
+      </header>
+      <div class="nav_wrap">
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="Introduce.html">Introduce</a>
+          <a href="Quotes.html">Quotes</a>
+          <a href="Toy.html">Toy</a>
+        </nav>
+      </div>
+    <main>
+        <section>
+            <p>Here, through images obtained from the yumu channel,<br> number of toys here.</p><br>
+            <h1>The loading bar that fills up after a month</h1>
+            <div id="myProgress">
+                <div id="myBar">10%</div>
+            </div>
+            <br>
+            <button onclick="move()">Click Me</button>
+            <br>
+        </section>
+        <section>
+            <h1>3D Flip Box (Horizontal)</h1>
+            <h3>Hover over the box below:</h3>
+
+            <div class="flip-box">
+                <div class="flip-box-inner">
+                    <div class="flip-box-front">
+                        <h2>The treasure behind me</h2>
+                    </div>
+                    <div class="flip-box-back">
+                        <h2>Heh, You fell for it!</h2>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section>
+            <a href="#" class="notification">
+                <span>The number of good luck that hasn't come to you yet</span>
+                <span class="badge">3</span>
+            </a>
+
+        </section>
+        <section>
+            <h2>If you scroll down, you'll see stars that grant your wishes.</h2>
+            <p>If you scroll up, it goes back.</p>
+
+            <svg id="mySVG">
+                <path fill="none" stroke="red" stroke-width="3" id="triangle" d="M150 25 L185 100 L275 100 L200 150 L225 225 L150 175 L75 225 L100 150 L25 100 L115 100 Z"/>
+                Sorry, your browser does not support inline SVG.
+            </svg>
+
+        </section>
+    </main>
+    <div class="footer_wrap">
+        <footer class="footer">
+          <a href="https://www.youtube.com/@Yumu_En/about" class="youtube" target="_blank">
+            <i class="fab fa-youtube"></i>
+            Youtube
+          </a>
+          <a href="https://twitter.com/Yumu_En" class="twitter" target="_blank">
+            <i class="fab fa-twitter"></i>
+            Twitter
+          </a>
+          <a href="https://yumu-en.booth.pm/" class="goods" target="_blank">
+            <i class="fas fa-shopping-cart"></i>
+            Goods
+          </a>
+          <a href="https://peing.net/ja/yumu_en" class="questionbox" target="_blank">
+            <i class="fas fa-question-circle"></i>
+            QuestionBox
+          </a>
+        </footer>
+      </div>
+</body>
+
+</html>
