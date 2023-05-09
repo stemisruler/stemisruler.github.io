@@ -1,0 +1,59 @@
+#text {
+  background-color: black;
+  border-radius: 10px;
+  padding: 20px;
+  position: absolute;
+  right: 220px;
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: 200px;
+  /* Add the following properties to create the speech bubble effect */
+  border: 1px solid #000000;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  font-size: 1.2em;
+  color: white;
+  /* increase the font size */
+  word-wrap: break-word;
+
+}
+
+#text::before {
+  content: '';  
+  display: block;
+  position: absolute;
+  border-style: solid;
+  border-radius: 10%;
+  border-color:  transparent #000000 transparent transparent;
+  border-width: 30px;
+  /* increase the size of the triangle */
+  left: -58px;
+  /* adjust the position of the triangle */
+  top: calc(50% - 30px);
+  /* adjust the position of the triangle */
+}
+
+
+div {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  cursor: pointer;
+  max-width: 100%;
+  height: 110vh;
+  /* set the height of the image to the height of the viewport */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  height: 100%;
+}
