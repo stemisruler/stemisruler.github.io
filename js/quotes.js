@@ -31,7 +31,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_be.png", //가까이서 웃는 것. 위로. 응원.
+    imagePath: "images/a_blush.png", //가까이서 웃는 것. 위로. 응원.
     texts: [
       "We can do it.",
       "Don't be discouraged.",
@@ -41,7 +41,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_be.png", //오른쪽을 보며 웃는 가까운 웃음, 가벼운 농담
+    imagePath: "images/a_normal.png", //오른쪽을 보며 웃는 가까운 웃음, 가벼운 농담
     texts: [
       "You didn't see anyone else besides me, did you?",
       "It's only me, right?",
@@ -51,7 +51,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_be.png", //실패와 도전에 대한 명언 날리기
+    imagePath: "images/a_rsans.png", //실패와 도전에 대한 명언 날리기
     texts: [
       "Strive not to be a success, but rather to be of value.",
       "The best way to predict the future is to create it.",
@@ -65,7 +65,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_be.png", //놀라움, 낙담에 대한 명언 혹은 감탄사
+    imagePath: "images/a_sad.png", //놀라움, 낙담에 대한 명언 혹은 감탄사
     texts: [
       "Someone said Pokemon doesn't exist.. Is this really right?",
       "Someone said Lemon has as much vitamin C as a lemon. Is that true?",
