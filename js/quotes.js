@@ -51,7 +51,7 @@ const QUOTES = [
       "It's only me, right?",
       "Thank you for always coming",
       "hehe...",
-      "Let's enjoy it until death comes..",
+      "죽음이 찾아 올 때까지 우리의 삶을 계속 즐겨보자..",
     ],
   },
   {
