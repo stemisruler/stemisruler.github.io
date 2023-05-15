@@ -51,7 +51,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_rsans.png", //실패와 도전에 대한 명언 날리기
+    imagePath: "images/a_sad.png", //실패와 도전에 대한 명언 날리기
     texts: [
       "Strive not to be a success, but rather to be of value.",
       "The best way to predict the future is to create it.",
