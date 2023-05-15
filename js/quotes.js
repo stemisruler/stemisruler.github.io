@@ -1,7 +1,7 @@
 const QUOTES = [
   // const를 사용해 상수로 선언된 배열
   {
-    imagePath: "images/a_be.png", // 입 다물고 멀리서 웃는, 평범한 이야기
+    imagePath: "images/a_be.png", // 파랑 눈
     texts: [
       "Nice to see you.",
       "It's a good day to see you. Everyday is a good day.",
@@ -10,7 +10,7 @@ const QUOTES = [
     ], // 객체 속성, 랜덤으로 출력될 텍스트 배열
   },
   {
-    imagePath: "images/a_happy.png", // 좀 떨어져서 희미하게 웃는, 가벼운 감사인사.
+    imagePath: "images/a_happy.png", // 행복한 표정
     texts: [
       "I like you, because you visit me.",
       "I like you, because you watch me.",
@@ -18,10 +18,14 @@ const QUOTES = [
       "If you had a hard day, I'll give you my heart.",
       "The world is sometimes too cruel. But don't you think we should get over it?",
       "Time is ticking..I like you.",
+      "Someone said Pokemon doesn't exist.. Is this really right?",
+      "Someone said Lemon has as much vitamin C as a lemon. Is that true?",
+      "Kwakwang!",
+      "It's an honor to meet you again! I'm practicing historical drama..",
     ],
   },
   {
-    imagePath: "images/a_re.png", // 먹을 거 얘기, 집착, 가까움.
+    imagePath: "images/a_re.png", // 빨간 눈
     texts: [
       "I want to be with you forever. Even in a dream.",
       "I want to tie you in my dream so that you can't go anywhere... I'm just kidding. Hehe..",
@@ -31,7 +35,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_blush.png", //가까이서 웃는 것. 위로. 응원.
+    imagePath: "images/a_blush.png", // 홍조
     texts: [
       "We can do it.",
       "Don't be discouraged.",
@@ -41,7 +45,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_normal.png", //오른쪽을 보며 웃는 가까운 웃음, 가벼운 농담
+    imagePath: "images/a_normal.png", //정색
     texts: [
       "You didn't see anyone else besides me, did you?",
       "It's only me, right?",
@@ -51,7 +55,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_sad.png", //실패와 도전에 대한 명언 날리기
+    imagePath: "images/a_sad.png", //슬픔
     texts: [
       "Strive not to be a success, but rather to be of value.",
       "The best way to predict the future is to create it.",
@@ -62,15 +66,6 @@ const QUOTES = [
       "You are my best friend, my human diary and my other half. You mean the world to me and I love you.",
       "You are my today and all of my tomorrows.",
       "Believe that life is worth living and your belief will help create the fact.",
-    ],
-  },
-  {
-    imagePath: "images/a_sad.png", //놀라움, 낙담에 대한 명언 혹은 감탄사
-    texts: [
-      "Someone said Pokemon doesn't exist.. Is this really right?",
-      "Someone said Lemon has as much vitamin C as a lemon. Is that true?",
-      "Kwakwang!",
-      "It's an honor to meet you again! I'm practicing historical drama..",
     ],
   },
 ];
