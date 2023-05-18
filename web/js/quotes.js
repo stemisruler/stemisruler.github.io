@@ -1,7 +1,7 @@
 const QUOTES = [
   // const를 사용해 상수로 선언된 배열
   {
-    imagePath: "images/a_be.png", // 파랑 눈
+    imagePath: "../assets/images/a_be.png", // 파랑 눈
     texts: [
       "Nice to see you.",
       "It's a good day to see you. Everyday is a good day.",
@@ -10,7 +10,7 @@ const QUOTES = [
     ], // 객체 속성, 랜덤으로 출력될 텍스트 배열
   },
   {
-    imagePath: "images/a_happy.png", // 행복한 표정
+    imagePath: "../assets/images/a_happy.png", // 행복한 표정
     texts: [
       "I like you, because you visit me.",
       "I like you, because you watch me.",
@@ -25,7 +25,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_re.png", // 빨간 눈
+    imagePath: "../assets/images/a_re.png", // 빨간 눈
     texts: [
       "I want to be with you forever. Even in a dream.",
       "I want to tie you in my dream so that you can't go anywhere... I'm just kidding. Hehe..",
@@ -35,7 +35,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_blush.png", // 홍조
+    imagePath: "../assets/images/a_blush.png", // 홍조
     texts: [
       "We can do it.",
       "Don't be discouraged.",
@@ -45,7 +45,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_normal.png", //정색
+    imagePath: "../assets/images/a_normal.png", //정색
     texts: [
       "You didn't see anyone else besides me, did you?",
       "It's only me, right?",
@@ -55,7 +55,7 @@ const QUOTES = [
     ],
   },
   {
-    imagePath: "images/a_sad.png", //슬픔
+    imagePath: "../assets/images/a_sad.png", //슬픔
     texts: [
       "Strive not to be a success, but rather to be of value.",
       "The best way to predict the future is to create it.",
