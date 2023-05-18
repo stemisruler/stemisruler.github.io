@@ -1,8 +1,0 @@
-감정 대사 / 주식 지식 혹은 명언 대사 - 길게는 못쓴다
-
-happy
-be
-re
-blush
-sad
-normal
