@@ -40,7 +40,7 @@
   img {
     cursor: pointer;
     max-width: 50%;
-    max-height: 110vh; /* set the height of the image to the height of the viewport */
+    max-height: 100vh; /* set the height of the image to the height of the viewport */
   }
   
   body {
@@ -63,6 +63,6 @@
 
 @media (max-width:800px){
     #text{
-        font-size: 12px;
+        font-size: 16px;
     }
 }
