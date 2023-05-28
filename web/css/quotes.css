@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #text {
     background-color: #ffffff;
     border-radius: 10px;
@@ -9,6 +16,7 @@
     box-shadow: 5px 5px 30px #888888;
     border-color: transparent #FFF;
     position: relative;
+    font-family: 'omyu_pretty';
   }
   
   #text::before {
