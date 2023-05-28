@@ -52,3 +52,9 @@
     padding: 15px 5px;
     margin: 0;
   }  
+
+@media (max-width:800px){
+    #text{
+        font-size: 12px;
+    }
+}
