@@ -67,9 +67,9 @@ a i {
 @media (max-width:800px){
   
   header>.nav{
-    width:47%;
+    width:20%;
   }
   .footer{
-    width:47%;
+    width:20%;
   }
   }
