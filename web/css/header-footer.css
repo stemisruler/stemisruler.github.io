@@ -66,10 +66,10 @@ a i {
 
 @media (max-width:800px){
   
-  header>.nav{
-    width:47%;
+  .nav_wrap{
+    display: none;
   }
   .footer{
-    width:47%;
+    display: none;
   }
   }
