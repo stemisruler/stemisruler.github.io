@@ -65,11 +65,11 @@ a i {
 }
 
 @media (max-width:800px){
-
-  .nav_wrap{
-    display: none;
+  
+  header>.nav{
+    width:47%;
   }
   .footer{
-    display: none;
+    width:47%;
   }
   }
