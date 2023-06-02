@@ -61,6 +61,40 @@
     margin: 0;
   }  
 
+  .haha{
+    position: relative;
+  }
+  .haha>a{
+    font-family: 'omyu_pretty';
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: black;
+    color: white;
+    transition: 0.8s;
+
+  }
+  .haha>a:nth-of-type(1){
+    right: 25%;
+    bottom: 0%;
+  }
+  .haha>a:nth-of-type(2){
+    right: 20%;
+    bottom: 0%;
+  }
+
+  .haha>a:nth-of-type(3){
+    right: 15%;
+    bottom: 0%;
+  }
+  .haha>a:nth-of-type(4){
+    right: 10%;
+    bottom: 0;
+  }
+
 @media (max-width:800px){
     .header, main>p:nth-child(1){
       display: none;
@@ -71,4 +105,40 @@
     #text{
         font-size: 16px;
     }
+    .haha>a{
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      font-size: 0.5rem;
+      background-color: black;
+      color: white;
+
+    }
+    .haha>a{
+      line-height: 0;
+      font-size: 0.5rem;
+      width: 25px;
+      height: 5px;
+    }
+    .haha>a:nth-of-type(1){
+      right: 43%;
+      bottom: 5%;
+    }
+    .haha>a:nth-of-type(2){
+      right: 33%;
+      bottom: 5%;
+    }
+  
+    .haha>a:nth-of-type(3){
+      right: 23%;
+      bottom: 5%;
+    }
+    .haha>a:nth-of-type(4){
+      right: 13%;
+      bottom: 5%;
+   }
+   #text::before{
+    display: none;
+   }
 }
+
